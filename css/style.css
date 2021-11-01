@@ -1,0 +1,56 @@
+body{
+    margin:0;
+    padding:0;
+    background: black;
+    color: white;
+}
+
+.sidebar{
+    float:left;
+    height:100vh;
+    padding:10px
+}
+
+nav{
+    color: white;
+}
+
+.menu_item{
+    list-style: none;
+    padding:0;
+    
+}
+.menu_item a{
+    color:white;
+    background: black;
+    border:none;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.menu_item a:hover{
+    color: black;
+    background: white;
+}
+
+
+
+.content{
+    width:fit-content;
+    margin: auto;
+    padding:30px;
+}
+
+.column{
+    width:45%;
+    float:left;
+}
+
+.events-schedule{
+    width:800px;
+}
+
+table,th,td{
+    border: solid white 1px;
+
+}
